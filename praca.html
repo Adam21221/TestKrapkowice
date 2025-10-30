@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oferty Pracy - TEST Krapkowice</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Zapewnienie widoczności treści */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        html, body {
+            min-height: 100vh;
+            background: #0f172a;
+            color: white;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+        }
+        
+        .test-content {
+            padding: 120px 20px 60px;
+            max-width: 1200px;
+            margin: 0 auto;
+            position: relative;
+            z-index: 10;
+        }
+    </style>
+</head>
+<body>
+    <!-- Background Animation -->
+    <div class="bg-animation">
+        <div class="shape"></div>
+        <div class="shape"></div>
+        <div class="gradient-orb"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <div class="logo-wrapper">
+                    <span class="logo-icon">
+                        <img src="fftreatment (1) kopia.png" alt="TEST Krapkowice Logo">
+                    </span>
+                    <h2>TEST Krapkowice</h2>
+                </div>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html">Start</a></li>
+                <li><a href="index.html#products">Produkty</a></li>
+                <li><a href="index.html#technologies">Technologie</a></li>
+                <li><a href="index.html#about">O Nas</a></li>
+                <li><a href="praca.html">Praca</a></li>
+                <li><a href="index.html#contact-form-wrapper" class="nav-cta">Kontakt</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Jobs Hero Section -->
+    <section class="jobs-hero">
+        <div class="container">
+            <div class="jobs-hero-content">
+                <span class="section-tag">Kariera</span>
+                <h1 class="jobs-hero-title">Dołącz Do Nas</h1>
+                <p class="jobs-hero-desc">
+                    TEST to firma o ugruntowanej pozycji na rynku. Gwarantujemy atrakcyjne wynagrodzenie, 
+                    umowę o pracę i stabilne zatrudnienie. Sprawdź aktualne oferty. Masz pytania, 
+                    chcesz dowiedzieć się więcej? Zadzwoń lub napisz!
+                </p>
+                <div class="jobs-hero-contact">
+                    <a href="tel:+48519335569" class="jobs-contact-item">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+                        </svg>
+                        <span>+48 519 335 569</span>
+                    </a>
+                    <a href="mailto:biuro@testkrapkowice.pl" class="jobs-contact-item">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+                            <polyline points="22,6 12,13 2,6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                        <span>biuro@testkrapkowice.pl</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Job Offers Section -->
+    <section class="jobs-section">
+        <div class="container">
+            <div class="jobs-grid">
+                <!-- Ślusarz -->
+                <div class="job-card">
+                    <div class="job-image">
+                        <img src="oferty_pracy/slusarz.jpg" alt="Ślusarz">
+                    </div>
+                    <h3 class="job-title">ŚLUSARZ</h3>
+                    <div class="job-label">Oferta Pracy</div>
+                    <p class="job-description">
+                        Wymagamy umiejętności wykonywania prac ślusarskich i obsługi elektronarzędzi.
+                    </p>
+                    <div class="job-benefits">
+                        <div class="job-benefit-item">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor">
+                                <path d="M10 2L12 7L17 8L13.5 11.5L15 17L10 14L5 17L6.5 11.5L3 8L8 7L10 2Z"/>
+                            </svg>
+                            <span>Umowa o pracę</span>
+                        </div>
+                        <div class="job-benefit-item">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor">
+                                <circle cx="10" cy="10" r="8" stroke="currentColor" stroke-width="2" fill="none"/>
+                                <path d="M6 10L9 13L14 7" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                            </svg>
+                            <span>Zatrudnienie bezpośrednie</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Spawacz -->
+                <div class="job-card">
+                    <div class="job-image">
+                        <img src="oferty_pracy/2process-creating-modern-fence-with-orange-sparks.avif" alt="Spawacz">
+                    </div>
+                    <h3 class="job-title">SPAWACZ</h3>
+                    <div class="job-label">Oferta Pracy</div>
+                    <p class="job-description">
+                        Jeżeli masz doświadczenie w spawaniu potwierdzone certyfikatami i pracą na podobnym stanowisku, 
+                        zapoznaj się z naszą ofertą!
+                    </p>
+                    <div class="job-benefits">
+                        <div class="job-benefit-item">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor">
+                                <path d="M10 2L12 7L17 8L13.5 11.5L15 17L10 14L5 17L6.5 11.5L3 8L8 7L10 2Z"/>
+                            </svg>
+                            <span>Umowa o pracę</span>
+                        </div>
+                        <div class="job-benefit-item">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor">
+                                <circle cx="10" cy="10" r="8" stroke="currentColor" stroke-width="2" fill="none"/>
+                                <path d="M6 10L9 13L14 7" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                            </svg>
+                            <span>Atrakcyjne wynagrodzenie</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Brygadzista -->
+                <div class="job-card">
+                    <div class="job-image">
+                        <img src="oferty_pracy/brygadzista.jpg" alt="Brygadzista">
+                    </div>
+                    <h3 class="job-title">BRYGADZISTA</h3>
+                    <div class="job-label">Oferta Pracy</div>
+                    <p class="job-description">
+                        Jeżeli masz umiejętności w wyznaczaniu zadań i kontroli w zakresie realizacji podejmowanych prac, 
+                        doświadczenie w kierowaniu zespołu i potrafisz pracować z rysunkiem technicznym - dołącz do nas!
+                    </p>
+                    <div class="job-benefits">
+                        <div class="job-benefit-item">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor">
+                                <path d="M10 2L12 7L17 8L13.5 11.5L15 17L10 14L5 17L6.5 11.5L3 8L8 7L10 2Z"/>
+                            </svg>
+                            <span>Umowa o pracę</span>
+                        </div>
+                        <div class="job-benefit-item">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor">
+                                <circle cx="10" cy="10" r="8" stroke="currentColor" stroke-width="2" fill="none"/>
+                                <path d="M6 10L9 13L14 7" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                            </svg>
+                            <span>Praca w zespole</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Automatyk -->
+                <div class="job-card">
+                    <div class="job-image">
+                        <img src="oferty_pracy/automatyk.jpg" alt="Automatyk">
+                    </div>
+                    <h3 class="job-title">AUTOMATYK</h3>
+                    <div class="job-label">Oferta Pracy</div>
+                    <p class="job-description">
+                        Wymagania: wykształcenie wyższe techniczne, wiedza z zakresu automatyki i elektryki, 
+                        min. 5 lat doświadczenia. Obsługa i modyfikacja sterowania maszyn produkcyjnych, 
+                        programowanie sterowników PLC.
+                    </p>
+                    <div class="job-benefits">
+                        <div class="job-benefit-item">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor">
+                                <path d="M10 2L12 7L17 8L13.5 11.5L15 17L10 14L5 17L6.5 11.5L3 8L8 7L10 2Z"/>
+                            </svg>
+                            <span>Min. 5 lat doświadczenia</span>
+                        </div>
+                        <div class="job-benefit-item">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor">
+                                <circle cx="10" cy="10" r="8" stroke="currentColor" stroke-width="2" fill="none"/>
+                                <path d="M6 10L9 13L14 7" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                            </svg>
+                            <span>Programowanie PLC</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section class="jobs-contact-section">
+        <div class="container">
+            <div class="jobs-contact-wrapper">
+                <div class="section-header">
+                    <h2 class="section-title">Masz pytania?</h2>
+                    <p class="section-desc">Napisz do nas! Chętnie odpowiemy na wszelkie wątpliwości</p>
+                </div>
+                
+                <form class="jobs-form">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <input type="text" id="firstName" name="firstName" placeholder="Imię" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="lastName" name="lastName" placeholder="Nazwisko" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" rows="6" placeholder="Wiadomość" required></textarea>
+                    </div>
+                    <button type="submit" class="form-submit-btn">
+                        Wyślij
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <path d="M4 10h12m0 0l-4-4m4 4l-4 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <!-- Footer Brand -->
+            <div class="footer-brand">
+                <div class="footer-logo">
+                    <div class="footer-logo-icon">
+                        <img src="fftreatment (1) kopia.png" alt="TEST Krapkowice Logo">
+                    </div>
+                    <h3>TEST Krapkowice</h3>
+                </div>
+                <p class="footer-description">
+                    Wiodący producent urządzeń i kompletnych linii technologicznych do przetwarzania odpadów. Innowacyjne rozwiązania dla branży gospodarki odpadami.
+                </p>
+                <div class="footer-social">
+                    <a href="https://fb.com/TESTKrapkowice" target="_blank" rel="noopener" aria-label="Facebook">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/>
+                        </svg>
+                    </a>
+                    <a href="https://youtube.com/TESTKrapkowice" target="_blank" rel="noopener" aria-label="YouTube">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M23 7s-.2-1.4-.8-2c-.8-.8-1.6-.8-2-.9C17.3 4 12 4 12 4s-5.3 0-8.2.1c-.4.1-1.2.1-2 .9-.6.6-.8 2-.8 2S1 8.5 1 10.2v1.6C1 13.5 1 15 1 15s.2 1.4.8 2c.8.8 1.8.8 2.2.9 1.6.1 8 .2 8 .2s5.3 0 8.2-.1c.4-.1 1.2-.1 2-.9.6-.6.8-2 .8-2s.2-1.4.2-3.1v-1.6C23 8.5 23 7 23 7zm-13 6V8l6 2.5-6 2.5z"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Quick Links -->
+            <div class="footer-section">
+                <h4>Menu</h4>
+                <ul class="footer-links">
+                    <li><a href="index.html#home">Start</a></li>
+                    <li><a href="index.html#products">Produkty</a></li>
+                    <li><a href="index.html#technologies">Technologie</a></li>
+                    <li><a href="index.html#about">O Nas</a></li>
+                    <li><a href="index.html#contact-form-wrapper">Kontakt</a></li>
+                </ul>
+            </div>
+
+            <!-- Contact Info -->
+            <div class="footer-section">
+                <h4>Kontakt</h4>
+                <div class="footer-contact-item">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                        <circle cx="12" cy="10" r="3"/>
+                    </svg>
+                    <div>
+                        <div>ul. Opolska 79</div>
+                        <div>47-300 Krapkowice</div>
+                    </div>
+                </div>
+                <div class="footer-contact-item">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                    </svg>
+                    <span>+48 774 467 135</span>
+                </div>
+                <div class="footer-contact-item">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                        <polyline points="22,6 12,13 2,6"/>
+                    </svg>
+                    <span>biuro@testkrapkowice.pl</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer Bottom -->
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; 2025 TEST Krapkowice. Wszelkie prawa zastrzeżone. | NIP: PL756-001-04-86 | REGON: 531282504 | BDO: 000047690</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <script>
+        // Initialize AOS
+        if (typeof AOS !== 'undefined') {
+            AOS.init({
+                duration: 800,
+                once: true,
+                offset: 100
+            });
+        }
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>

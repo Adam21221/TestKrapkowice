@@ -1,0 +1,1098 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TEST Krapkowice - Gospodarka Odpadami</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Animated Background -->
+    <div class="bg-animation">
+        <div class="shape shape-1"></div>
+        <div class="shape shape-2"></div>
+        <div class="shape shape-3"></div>
+        <div class="gradient-orb orb-1"></div>
+        <div class="gradient-orb orb-2"></div>
+        <div class="gradient-orb orb-3"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <div class="logo-wrapper">
+                    <span class="logo-icon">
+                        <img src="fftreatment (1) kopia.png" alt="TEST Krapkowice Logo">
+                    </span>
+                    <h2>TEST Krapkowice</h2>
+                </div>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home">Start</a></li>
+                <li><a href="#products">Produkty</a></li>
+                <li><a href="#technologies">Technologie</a></li>
+                <li><a href="#about">O Nas</a></li>
+                <li><a href="praca.html">Praca</a></li>
+                <li><a href="#contact-form-wrapper" class="nav-cta">Kontakt</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <!-- Video Background -->
+        <div class="hero-video-wrapper">
+            <video class="hero-video" autoplay loop muted playsinline poster="img/rys/rwr.jpg.avif">
+                <source src="video/tessttt.mov" type="video/mp4">
+                <source src="video/tessttt.mov" type="video/quicktime">
+            </video>
+            <div class="hero-video-overlay"></div>
+        </div>
+        
+        <div class="hero-particles">
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+        </div>
+        
+        <div class="container hero-container">
+            <div class="hero-content">
+                <div class="hero-badge" data-aos="fade-up">
+                    <span class="badge-dot"></span>
+                    <span>Innowacyjne rozwiązania od 2000 roku</span>
+                </div>
+                <h1 class="hero-title" data-aos="fade-up" data-aos-delay="100">
+                    <span class="title-line">Przyszłość</span>
+                    <span class="title-line gradient-text">Gospodarki Odpadami</span>
+                </h1>
+                <p class="hero-subtitle" data-aos="fade-up" data-aos-delay="200">
+                    Realizujemy projekty gotowych linii przetwarzania odpadów oraz ich poszczególnych elementów z wykorzystaniem najnowszych technologii
+                </p>
+                <div class="hero-buttons" data-aos="fade-up" data-aos-delay="300">
+                    <a href="#products" class="btn btn-primary">
+                        <span>Poznaj Ofertę</span>
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <path d="M7.5 15L12.5 10L7.5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </a>
+                    <a href="#contact-form-wrapper" class="btn btn-secondary">
+                        <span>Skontaktuj się</span>
+                    </a>
+                </div>
+                
+                <!-- Hero Stats Cards -->
+                <div class="hero-stats-cards" data-aos="fade-up" data-aos-delay="400">
+                    <div class="stat-card">
+                        <div class="stat-card-icon">
+                            <svg width="40" height="40" viewBox="0 0 40 40" fill="none">
+                                <path d="M20 5L25 15H35L27.5 21.5L31 32L20 25L9 32L12.5 21.5L5 15H15L20 5Z" fill="currentColor"/>
+                            </svg>
+                        </div>
+                        <div class="stat-card-content">
+                            <div class="stat-card-number">25+</div>
+                            <div class="stat-card-label">Lat Doświadczenia</div>
+                        </div>
+                    </div>
+                    
+                    <div class="stat-card">
+                        <div class="stat-card-icon">
+                            <svg width="40" height="40" viewBox="0 0 40 40" fill="none">
+                                <circle cx="20" cy="20" r="15" stroke="currentColor" stroke-width="2" fill="none"/>
+                                <path d="M20 8V20L28 24" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                            </svg>
+                        </div>
+                        <div class="stat-card-content">
+                            <div class="stat-card-number">100%</div>
+                            <div class="stat-card-label">Profesjonalizmu</div>
+                        </div>
+                    </div>
+                    
+                    <div class="stat-card">
+                        <div class="stat-card-icon">
+                            <svg width="40" height="40" viewBox="0 0 40 40" fill="none">
+                                <rect x="5" y="10" width="10" height="10" rx="2" fill="currentColor"/>
+                                <rect x="18" y="10" width="10" height="10" rx="2" fill="currentColor"/>
+                                <rect x="31" y="10" width="4" height="10" rx="2" fill="currentColor"/>
+                                <rect x="5" y="25" width="10" height="10" rx="2" fill="currentColor"/>
+                                <rect x="18" y="25" width="10" height="10" rx="2" fill="currentColor"/>
+                                <rect x="31" y="25" width="4" height="10" rx="2" fill="currentColor"/>
+                            </svg>
+                        </div>
+                        <div class="stat-card-content">
+                            <div class="stat-card-number">100+</div>
+                            <div class="stat-card-label">Udanych Wdrożeń</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Wave Effect -->
+        <div class="wave-container">
+            <svg class="wave wave-1" viewBox="0 0 1440 320" preserveAspectRatio="none">
+                <path fill="rgba(15, 23, 42, 0.7)" d="M0,96L48,112C96,128,192,160,288,160C384,160,480,128,576,122.7C672,117,768,139,864,149.3C960,160,1056,160,1152,138.7C1248,117,1344,75,1392,53.3L1440,32L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
+            </svg>
+            <svg class="wave wave-2" viewBox="0 0 1440 320" preserveAspectRatio="none">
+                <path fill="rgba(15, 23, 42, 0.9)" d="M0,160L48,170.7C96,181,192,203,288,197.3C384,192,480,160,576,154.7C672,149,768,171,864,181.3C960,192,1056,192,1152,170.7C1248,149,1344,107,1392,85.3L1440,64L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
+            </svg>
+        </div>
+    </section>
+
+    <!-- RYŚ - Rozrywarka Worków Section -->
+    <section id="products" class="product-section-rys">
+        <div class="full-width-product">
+            <div class="product-hero-collage">
+                <div class="hero-main-image">
+                    <img src="img/rys/rwr.jpg.avif" alt="Rozrywarka worków RYŚ">
+                    <div class="product-hero-overlay">
+                        <div class="product-hero-badge">RYŚ</div>
+                    </div>
+                </div>
+                <div class="hero-collage-grid">
+                    <div class="collage-item">
+                        <img src="img/rys/Zrzut ekranu 2025-10-30 o 00.01.07.png" alt="RYŚ - szczegóły">
+                    </div>
+                    <div class="collage-item">
+                        <img src="img/rys/Zrzut ekranu 2025-10-30 o 00.01.11.png" alt="RYŚ - bunkier">
+                    </div>
+                    <div class="collage-item">
+                        <img src="img/rys/Zrzut ekranu 2025-10-30 o 00.01.14.png" alt="RYŚ - mechanizm">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="product-full-content">
+                    <div class="product-full-header">
+                        <span class="product-category-tag">Maszyny Rozrywające</span>
+                        <h2 class="product-full-title">Rozrywarka Worków RYŚ</h2>
+                        
+                        <!-- Kolorowe śmietniki -->
+                        <div class="waste-bins-container">
+                            <div class="waste-bin bin-blue">
+                                <svg viewBox="0 0 100 120" fill="none">
+                                    <path d="M15 30 L15 110 Q15 115 20 115 L80 115 Q85 115 85 110 L85 30 Z" fill="#0ea5e9"/>
+                                    <rect x="10" y="25" width="80" height="8" rx="2" fill="#0ea5e9"/>
+                                    <rect x="35" y="15" width="30" height="12" rx="2" fill="#0ea5e9"/>
+                                    <line x1="30" y1="45" x2="30" y2="100" stroke="white" stroke-width="3" stroke-linecap="round"/>
+                                    <line x1="50" y1="45" x2="50" y2="100" stroke="white" stroke-width="3" stroke-linecap="round"/>
+                                    <line x1="70" y1="45" x2="70" y2="100" stroke="white" stroke-width="3" stroke-linecap="round"/>
+                                </svg>
+                                <span>Papier</span>
+                            </div>
+                            <div class="waste-bin bin-yellow">
+                                <svg viewBox="0 0 100 120" fill="none">
+                                    <path d="M15 30 L15 110 Q15 115 20 115 L80 115 Q85 115 85 110 L85 30 Z" fill="#eab308"/>
+                                    <rect x="10" y="25" width="80" height="8" rx="2" fill="#eab308"/>
+                                    <rect x="35" y="15" width="30" height="12" rx="2" fill="#eab308"/>
+                                    <line x1="30" y1="45" x2="30" y2="100" stroke="white" stroke-width="3" stroke-linecap="round"/>
+                                    <line x1="50" y1="45" x2="50" y2="100" stroke="white" stroke-width="3" stroke-linecap="round"/>
+                                    <line x1="70" y1="45" x2="70" y2="100" stroke="white" stroke-width="3" stroke-linecap="round"/>
+                                </svg>
+                                <span>Plastik</span>
+                            </div>
+                            <div class="waste-bin bin-green">
+                                <svg viewBox="0 0 100 120" fill="none">
+                                    <path d="M15 30 L15 110 Q15 115 20 115 L80 115 Q85 115 85 110 L85 30 Z" fill="#10b981"/>
+                                    <rect x="10" y="25" width="80" height="8" rx="2" fill="#10b981"/>
+                                    <rect x="35" y="15" width="30" height="12" rx="2" fill="#10b981"/>
+                                    <line x1="30" y1="45" x2="30" y2="100" stroke="white" stroke-width="3" stroke-linecap="round"/>
+                                    <line x1="50" y1="45" x2="50" y2="100" stroke="white" stroke-width="3" stroke-linecap="round"/>
+                                    <line x1="70" y1="45" x2="70" y2="100" stroke="white" stroke-width="3" stroke-linecap="round"/>
+                                </svg>
+                                <span>Szkło</span>
+                            </div>
+                            <div class="waste-bin bin-brown">
+                                <svg viewBox="0 0 100 120" fill="none">
+                                    <path d="M15 30 L15 110 Q15 115 20 115 L80 115 Q85 115 85 110 L85 30 Z" fill="#92400e"/>
+                                    <rect x="10" y="25" width="80" height="8" rx="2" fill="#92400e"/>
+                                    <rect x="35" y="15" width="30" height="12" rx="2" fill="#92400e"/>
+                                    <line x1="30" y1="45" x2="30" y2="100" stroke="white" stroke-width="3" stroke-linecap="round"/>
+                                    <line x1="50" y1="45" x2="50" y2="100" stroke="white" stroke-width="3" stroke-linecap="round"/>
+                                    <line x1="70" y1="45" x2="70" y2="100" stroke="white" stroke-width="3" stroke-linecap="round"/>
+                                </svg>
+                                <span>Bio</span>
+                            </div>
+                            <div class="waste-bin bin-gray">
+                                <svg viewBox="0 0 100 120" fill="none">
+                                    <path d="M15 30 L15 110 Q15 115 20 115 L80 115 Q85 115 85 110 L85 30 Z" fill="#374151"/>
+                                    <rect x="10" y="25" width="80" height="8" rx="2" fill="#374151"/>
+                                    <rect x="35" y="15" width="30" height="12" rx="2" fill="#374151"/>
+                                    <line x1="30" y1="45" x2="30" y2="100" stroke="white" stroke-width="3" stroke-linecap="round"/>
+                                    <line x1="50" y1="45" x2="50" y2="100" stroke="white" stroke-width="3" stroke-linecap="round"/>
+                                    <line x1="70" y1="45" x2="70" y2="100" stroke="white" stroke-width="3" stroke-linecap="round"/>
+                                </svg>
+                                <span>Zmieszane</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-full-description">
+                        <p>
+                            Rozrywarka worków RYŚ została zaprojektowana z myślą o wszechstronnym działaniu w zakładach przetwarzania odpadów. 
+                            Konstrukcja urządzenia zapewnia niezawodność i długowieczność nawet w najbardziej wymagających warunkach pracy. 
+                            Jej zalety obejmują obsługę różnych rodzajów odpadów takich jak zmieszane komunalne, opakowaniowe, papier i tekturę oraz biodegradowalne.
+                        </p>
+                    </div>
+
+                    <div class="product-features-grid">
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <svg width="40" height="40" viewBox="0 0 40 40" fill="none">
+                                    <circle cx="20" cy="20" r="18" stroke="#10b981" stroke-width="2"/>
+                                    <path d="M14 20L18 24L26 16" stroke="#10b981" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                            <h4>Duży Bunkier Zasypowy</h4>
+                            <p>Pojemność 18 m³ pozwala na załadunek większej ilości odpadów. W razie potrzeby możliwość zmniejszenia do 12 m³.</p>
+                        </div>
+
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <svg width="40" height="40" viewBox="0 0 40 40" fill="none">
+                                    <circle cx="20" cy="20" r="18" stroke="#10b981" stroke-width="2"/>
+                                    <path d="M14 20L18 24L26 16" stroke="#10b981" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                            <h4>Wszechstronne Zastosowanie</h4>
+                            <p>Obsługa różnych rodzajów odpadów: komunalne, opakowaniowe, papier, tektura, biodegradowalne.</p>
+                        </div>
+
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <svg width="40" height="40" viewBox="0 0 40 40" fill="none">
+                                    <circle cx="20" cy="20" r="18" stroke="#10b981" stroke-width="2"/>
+                                    <path d="M14 20L18 24L26 16" stroke="#10b981" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                            <h4>Wytrzymała Konstrukcja</h4>
+                            <p>Specjalny gatunek stali odpornej na ścieranie. System bezpieczeństwa zgodny z normami UE.</p>
+                        </div>
+                    </div>
+
+                    <div class="product-specs-large">
+                        <div class="spec-large-item">
+                            <div class="spec-large-value">18 m³</div>
+                            <div class="spec-large-name">Pojemność Bunkra</div>
+                        </div>
+                        <div class="spec-large-item">
+                            <div class="spec-large-value">30 t/h</div>
+                            <div class="spec-large-name">Wydajność</div>
+                        </div>
+                        <div class="spec-large-item">
+                            <div class="spec-large-value">45 kW</div>
+                            <div class="spec-large-name">Moc Silnika</div>
+                        </div>
+                        <div class="spec-large-item">
+                            <div class="spec-large-value">CE</div>
+                            <div class="spec-large-name">Certyfikat</div>
+                        </div>
+                    </div>
+
+                    <div class="product-cta-center">
+                        <a href="#contact" class="btn btn-primary btn-xl">
+                            <span>Zapytaj o Ofertę</span>
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                <path d="M7.5 15L12.5 10L7.5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="btn btn-outline btn-xl">
+                            <span>Pobierz Kartę Produktu</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- LIS - Linia do Sortowania Section -->
+    <section class="product-section-lis">
+        <div class="full-width-product">
+            <div class="product-hero-collage">
+                <div class="hero-main-image">
+                    <img src="img/lis/testlis.jpg.avif" alt="Linia do Sortowania Odpadów LIS">
+                    <div class="product-hero-overlay">
+                        <div class="product-hero-badge">LIS</div>
+                    </div>
+                </div>
+                <div class="hero-collage-grid">
+                    <div class="collage-item">
+                        <img src="img/lis/Zrzut ekranu 2025-10-30 o 00.01.32.png" alt="LIS - szczegóły">
+                    </div>
+                    <div class="collage-item">
+                        <img src="img/lis/Zrzut ekranu 2025-10-30 o 00.01.35.png" alt="LIS - przenośnik">
+                    </div>
+                    <div class="collage-item">
+                        <img src="img/lis/Zrzut ekranu 2025-10-30 o 00.01.39.png" alt="LIS - sortowanie">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="product-full-content">
+                    <div class="product-full-header">
+                        <span class="product-category-tag">Linie Sortujące</span>
+                        <h2 class="product-full-title">Linia do Sortowania Odpadów LIS</h2>
+                        
+                        <!-- Kolorowe śmietniki -->
+                        <div class="waste-bins-container">
+                            <div class="waste-bin bin-blue">
+                                <svg viewBox="0 0 100 120" fill="none">
+                                    <path d="M15 30 L15 110 Q15 115 20 115 L80 115 Q85 115 85 110 L85 30 Z" fill="#0ea5e9"/>
+                                    <rect x="10" y="25" width="80" height="8" rx="2" fill="#0ea5e9"/>
+                                    <rect x="35" y="15" width="30" height="12" rx="2" fill="#0ea5e9"/>
+                                    <line x1="30" y1="45" x2="30" y2="100" stroke="white" stroke-width="3" stroke-linecap="round"/>
+                                    <line x1="50" y1="45" x2="50" y2="100" stroke="white" stroke-width="3" stroke-linecap="round"/>
+                                    <line x1="70" y1="45" x2="70" y2="100" stroke="white" stroke-width="3" stroke-linecap="round"/>
+                                </svg>
+                                <span>Papier</span>
+                            </div>
+                            <div class="waste-bin bin-yellow">
+                                <svg viewBox="0 0 100 120" fill="none">
+                                    <path d="M15 30 L15 110 Q15 115 20 115 L80 115 Q85 115 85 110 L85 30 Z" fill="#eab308"/>
+                                    <rect x="10" y="25" width="80" height="8" rx="2" fill="#eab308"/>
+                                    <rect x="35" y="15" width="30" height="12" rx="2" fill="#eab308"/>
+                                    <line x1="30" y1="45" x2="30" y2="100" stroke="white" stroke-width="3" stroke-linecap="round"/>
+                                    <line x1="50" y1="45" x2="50" y2="100" stroke="white" stroke-width="3" stroke-linecap="round"/>
+                                    <line x1="70" y1="45" x2="70" y2="100" stroke="white" stroke-width="3" stroke-linecap="round"/>
+                                </svg>
+                                <span>Plastik</span>
+                            </div>
+                            <div class="waste-bin bin-green">
+                                <svg viewBox="0 0 100 120" fill="none">
+                                    <path d="M15 30 L15 110 Q15 115 20 115 L80 115 Q85 115 85 110 L85 30 Z" fill="#10b981"/>
+                                    <rect x="10" y="25" width="80" height="8" rx="2" fill="#10b981"/>
+                                    <rect x="35" y="15" width="30" height="12" rx="2" fill="#10b981"/>
+                                    <line x1="30" y1="45" x2="30" y2="100" stroke="white" stroke-width="3" stroke-linecap="round"/>
+                                    <line x1="50" y1="45" x2="50" y2="100" stroke="white" stroke-width="3" stroke-linecap="round"/>
+                                    <line x1="70" y1="45" x2="70" y2="100" stroke="white" stroke-width="3" stroke-linecap="round"/>
+                                </svg>
+                                <span>Szkło</span>
+                            </div>
+                            <div class="waste-bin bin-brown">
+                                <svg viewBox="0 0 100 120" fill="none">
+                                    <path d="M15 30 L15 110 Q15 115 20 115 L80 115 Q85 115 85 110 L85 30 Z" fill="#92400e"/>
+                                    <rect x="10" y="25" width="80" height="8" rx="2" fill="#92400e"/>
+                                    <rect x="35" y="15" width="30" height="12" rx="2" fill="#92400e"/>
+                                    <line x1="30" y1="45" x2="30" y2="100" stroke="white" stroke-width="3" stroke-linecap="round"/>
+                                    <line x1="50" y1="45" x2="50" y2="100" stroke="white" stroke-width="3" stroke-linecap="round"/>
+                                    <line x1="70" y1="45" x2="70" y2="100" stroke="white" stroke-width="3" stroke-linecap="round"/>
+                                </svg>
+                                <span>Bio</span>
+                            </div>
+                            <div class="waste-bin bin-gray">
+                                <svg viewBox="0 0 100 120" fill="none">
+                                    <path d="M15 30 L15 110 Q15 115 20 115 L80 115 Q85 115 85 110 L85 30 Z" fill="#374151"/>
+                                    <rect x="10" y="25" width="80" height="8" rx="2" fill="#374151"/>
+                                    <rect x="35" y="15" width="30" height="12" rx="2" fill="#374151"/>
+                                    <line x1="30" y1="45" x2="30" y2="100" stroke="white" stroke-width="3" stroke-linecap="round"/>
+                                    <line x1="50" y1="45" x2="50" y2="100" stroke="white" stroke-width="3" stroke-linecap="round"/>
+                                    <line x1="70" y1="45" x2="70" y2="100" stroke="white" stroke-width="3" stroke-linecap="round"/>
+                                </svg>
+                                <span>Zmieszane</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-full-description">
+                        <p>
+                            Linia do sortowania odpadów LIS wyróżnia się przede wszystkim mobilnością. Dzięki samonośnej ramie, 
+                            możliwe jest swobodne przemieszczanie urządzenia w różne lokalizacje. Umożliwia to łatwą adaptację linii 
+                            do sortowania do zmieniających się warunków i potrzeb produkcyjnych. Linia wyposażona jest w pojemny kosz 
+                            zasypowy o pojemności 4,2 m³, który współpracuje z niezwykle wytrzymałym przenośnikiem podającym, bębnem 
+                            zwrotnym oraz modyfikowalnym układem rozrywania worków.
+                        </p>
+                    </div>
+
+                    <div class="product-features-grid">
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <svg width="40" height="40" viewBox="0 0 40 40" fill="none">
+                                    <circle cx="20" cy="20" r="18" stroke="#10b981" stroke-width="2"/>
+                                    <path d="M14 20L18 24L26 16" stroke="#10b981" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                            <h4>Mobilna Konstrukcja</h4>
+                            <p>Samonośna rama pozwala na swobodne przemieszczanie urządzenia w różne lokalizacje zakładu.</p>
+                        </div>
+
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <svg width="40" height="40" viewBox="0 0 40 40" fill="none">
+                                    <circle cx="20" cy="20" r="18" stroke="#10b981" stroke-width="2"/>
+                                    <path d="M14 20L18 24L26 16" stroke="#10b981" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                            <h4>Wszechstronność</h4>
+                            <p>Dedykowana do sortowania: BIO, szkła, odpadów komunalnych, opakowaniowych, papieru i tektury.</p>
+                        </div>
+
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <svg width="40" height="40" viewBox="0 0 40 40" fill="none">
+                                    <circle cx="20" cy="20" r="18" stroke="#10b981" stroke-width="2"/>
+                                    <path d="M14 20L18 24L26 16" stroke="#10b981" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                            <h4>Modyfikowalny Układ</h4>
+                            <p>Wytrzymały przenośnik, bęben zwrotny i modyfikowalny układ rozrywania worków.</p>
+                        </div>
+                    </div>
+
+                    <div class="product-specs-large">
+                        <div class="spec-large-item">
+                            <div class="spec-large-value">4,2 m³</div>
+                            <div class="spec-large-name">Kosz Zasypowy</div>
+                        </div>
+                        <div class="spec-large-item">
+                            <div class="spec-large-value">Mobilna</div>
+                            <div class="spec-large-name">Konstrukcja</div>
+                        </div>
+                        <div class="spec-large-item">
+                            <div class="spec-large-value">6 typów</div>
+                            <div class="spec-large-name">Rodzaje Odpadów</div>
+                        </div>
+                        <div class="spec-large-item">
+                            <div class="spec-large-value">CE</div>
+                            <div class="spec-large-name">Certyfikat</div>
+                        </div>
+                    </div>
+
+                    <div class="product-cta-center">
+                        <a href="#contact" class="btn btn-primary btn-xl">
+                            <span>Zapytaj o Ofertę</span>
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                <path d="M7.5 15L12.5 10L7.5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="btn btn-outline btn-xl">
+                            <span>Pobierz Kartę Produktu</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Other Products - Compact Grid -->
+    <section class="other-products">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Produkty</span>
+                <h2 class="section-title">Pozostałe Urządzenia</h2>
+                <p class="section-desc">Kompletna oferta maszyn do przetwarzania odpadów</p>
+            </div>
+
+            <div class="products-grid-compact">
+
+                    <!-- Przesiewacz dyskowy -->
+                    <div class="product-card-compact" data-tilt>
+                        <div class="compact-image">
+                            <img src="img/przesiewacz1.png.avif" alt="Przesiewacz dyskowy">
+                        </div>
+                        <div class="compact-content">
+                            <h4>Przesiewacz Dyskowy</h4>
+                            <p>Hartowana stal odporna na uderzenia. Dyski i wały ze specjalnego gatunku stali. Do odpadów budowlanych i gabarytowych.</p>
+                            <div class="compact-specs">
+                                <span><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor"><path d="M8 2a.5.5 0 0 1 .5.5v11a.5.5 0 0 1-1 0v-11A.5.5 0 0 1 8 2z"/><path d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0zM1 8a7 7 0 1 1 14 0A7 7 0 0 1 1 8z"/></svg> Wytrzymały</span>
+                                <span><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor"><path d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0V6z"/><path d="M14 1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/></svg> Hartowana stal</span>
+                                <span><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor"><path d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1H7zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/><path fill-rule="evenodd" d="M5.216 14A2.238 2.238 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.325 6.325 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1h4.216z"/><path d="M4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5z"/></svg> Budowlane</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Przesiewacz dwupokładowy -->
+                    <div class="product-card-compact" data-tilt>
+                        <div class="compact-image">
+                            <img src="img/231.png.avif" alt="Przesiewacz dwupokładowy">
+                        </div>
+                        <div class="compact-content">
+                            <h4>Przesiewacz Dwupokładowy</h4>
+                            <p>Jednoczesne wydzielenie 3 frakcji. Wymienne pokłady z mat poliuretanowych. Uniwersalne zastosowanie.</p>
+                            <div class="compact-specs">
+                                <span><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor"><path d="M1 2.5A1.5 1.5 0 0 1 2.5 1h3A1.5 1.5 0 0 1 7 2.5v3A1.5 1.5 0 0 1 5.5 7h-3A1.5 1.5 0 0 1 1 5.5v-3zm8 0A1.5 1.5 0 0 1 10.5 1h3A1.5 1.5 0 0 1 15 2.5v3A1.5 1.5 0 0 1 13.5 7h-3A1.5 1.5 0 0 1 9 5.5v-3zm-8 8A1.5 1.5 0 0 1 2.5 9h3A1.5 1.5 0 0 1 7 10.5v3A1.5 1.5 0 0 1 5.5 15h-3A1.5 1.5 0 0 1 1 13.5v-3z"/></svg> 3 frakcje</span>
+                                <span><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor"><path fill-rule="evenodd" d="M8 3a5 5 0 1 0 4.546 2.914.5.5 0 0 1 .908-.417A6 6 0 1 1 8 2v1z"/><path d="M8 4.466V.534a.25.25 0 0 1 .41-.192l2.36 1.966c.12.1.12.284 0 .384L8.41 4.658A.25.25 0 0 1 8 4.466z"/></svg> Wymienne</span>
+                                <span><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor"><path d="M8 16a.5.5 0 0 1-.5-.5v-1.293l-.646.647a.5.5 0 0 1-.707-.708L7.5 12.793V8.866l-3.4 1.963-.496 1.85a.5.5 0 1 1-.966-.26l.237-.882-1.12.646a.5.5 0 0 1-.5-.866l1.12-.646-.884-.237a.5.5 0 1 1 .26-.966l1.848.495L7 8 3.6 6.037l-1.85.495a.5.5 0 0 1-.258-.966l.883-.237-1.12-.646a.5.5 0 1 1 .5-.866l1.12.646-.237-.883a.5.5 0 1 1 .966-.258l.495 1.849L7.5 7.134V3.207L6.147 1.854a.5.5 0 1 1 .707-.708l.646.647V.5a.5.5 0 1 1 1 0v1.293l.647-.647a.5.5 0 1 1 .707.708L8.5 3.207v3.927l3.4-1.963.496-1.85a.5.5 0 1 1 .966.26l-.236.882 1.12-.646a.5.5 0 0 1 .5.866l-1.12.646.883.237a.5.5 0 1 1-.26.966l-1.848-.495L9 8l3.4 1.963 1.849-.495a.5.5 0 0 1 .259.966l-.883.237 1.12.646a.5.5 0 0 1-.5.866l-1.12-.646.236.883a.5.5 0 1 1-.966.258l-.495-1.849-3.4-1.963v3.927l1.353 1.353a.5.5 0 0 1-.707.708l-.647-.647V15.5a.5.5 0 0 1-.5.5z"/></svg> Wibracyjny</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Przesiewacz jednopokładowy -->
+                    <div class="product-card-compact" data-tilt>
+                        <div class="compact-image">
+                            <img src="img/przesiaww.png" alt="Przesiewacz jednopokładowy">
+                        </div>
+                        <div class="compact-content">
+                            <h4>Przesiewacz Jednopokładowy</h4>
+                            <p>Precyzyjne wydzielanie frakcji z możliwością łatwej wymiany pokładu. Wzmocniona konstrukcja dostosowana do pracy z odpadami komunalnymi i przemysłowymi.</p>
+                            <div class="compact-specs">
+                                <span><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor"><circle cx="8" cy="8" r="2" fill="currentColor"/><circle cx="8" cy="8" r="6" stroke="currentColor" stroke-width="1.5" fill="none"/><path d="M8 2V4M8 12V14M14 8H12M4 8H2" stroke="currentColor" stroke-width="1.5"/></svg> Precyzyjny</span>
+                                <span><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor"><path fill-rule="evenodd" d="M8 3a5 5 0 1 0 4.546 2.914.5.5 0 0 1 .908-.417A6 6 0 1 1 8 2v1z"/><path d="M8 4.466V.534a.25.25 0 0 1 .41-.192l2.36 1.966c.12.1.12.284 0 .384L8.41 4.658A.25.25 0 0 1 8 4.466z"/></svg> Wymienny pokład</span>
+                                <span><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor"><path d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2zm2-1a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H4z"/><path d="M6 4h4v1H6V4zm0 2h4v1H6V6zm0 2h4v1H6V8z"/></svg> Wzmocniona konstrukcja</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Przesiewacz bębnowy -->
+                    <div class="product-card-compact" data-tilt>
+                        <div class="compact-image">
+                            <img src="img/bebnowy1.png.avif" alt="Przesiewacz bębnowy">
+                        </div>
+                        <div class="compact-content">
+                            <h4>Przesiewacz Bębnowy</h4>
+                            <p>Duży bęben obrotowy z sitami różnych rozmiarów. Przepuszczanie materiałów określonej wielkości.</p>
+                            <div class="compact-specs">
+                                <span><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor"><circle cx="8" cy="8" r="3" fill="currentColor"/><path d="M8 1L9 4L12 3L11 6L14 7L11 8L14 9L11 10L12 13L9 12L8 15L7 12L4 13L5 10L2 9L5 8L2 7L5 6L4 3L7 4L8 1Z" fill="currentColor"/></svg> Obrotowy</span>
+                                <span><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor"><circle cx="8" cy="8" r="2" fill="currentColor"/><circle cx="8" cy="8" r="6" stroke="currentColor" stroke-width="1.5" fill="none"/><path d="M8 2V4M8 12V14M14 8H12M4 8H2" stroke="currentColor" stroke-width="1.5"/></svg> Precyzyjny</span>
+                                <span><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor"><path d="M15 3h-2V1H3v2H1v3h2v4H1v3h2v2h10v-2h2v-3h-2V6h2V3zm-3 9V6h1V4h-1V3H4v1H3v2h1v6H3v2h1v1h8v-1h1v-2h-1z"/></svg> Sita wymienne</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Separator balistyczny -->
+                    <div class="product-card-compact" data-tilt>
+                        <div class="compact-image">
+                            <img src="img/3121.png.avif" alt="Separator balistyczny">
+                        </div>
+                        <div class="compact-content">
+                            <h4>Separator Balistyczny</h4>
+                            <p>Wykorzystuje różnice w masie i właściwościach fizycznych odpadów. Rozdzielenie na różne frakcje.</p>
+                            <div class="compact-specs">
+                                <span><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor"><path d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/></svg> Masa</span>
+                                <span><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor"><circle cx="8" cy="8" r="1.5" fill="currentColor"/><circle cx="8" cy="8" r="4" stroke="currentColor" stroke-width="1.5" fill="none"/><path d="M8 0V3M8 13V16M16 8H13M3 8H0" stroke="currentColor" stroke-width="1.5"/></svg> Precyzja</span>
+                                <span><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor"><path d="M8 0L10 5L15 7L10 9L8 14L6 9L1 7L6 5L8 0Z" fill="currentColor"/><path d="M8 3L9 6L12 7L9 8L8 11L7 8L4 7L7 6L8 3Z" fill="none" stroke="currentColor" stroke-width="1"/></svg> Efektywny</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Instalacja odpylania -->
+                    <div class="product-card-compact" data-tilt>
+                        <div class="compact-image">
+                            <img src="img/odpylaniee.png.avif" alt="Instalacja odpylania">
+                        </div>
+                        <div class="compact-content">
+                            <h4>Instalacja Odpylania</h4>
+                            <p>Nowoczesna konstrukcja z intuicyjnym sterowaniem. Filtr workowy z systemem rurociągów i wentylatorów.</p>
+                            <div class="compact-specs">
+                                <span><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor"><path d="M8 0C5.784 0 4 1.784 4 4c0 1.657.97 3.08 2.364 3.742A2.99 2.99 0 0 0 5 10.5v2c0 .827.673 1.5 1.5 1.5h3c.827 0 1.5-.673 1.5-1.5v-2c0-1.12-.613-2.093-1.52-2.61A3.993 3.993 0 0 0 12 4c0-2.216-1.784-4-4-4zm0 1c1.657 0 3 1.343 3 3s-1.343 3-3 3-3-1.343-3-3 1.343-3 3-3z"/></svg> Filtr workowy</span>
+                                <span><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor"><rect x="2" y="2" width="12" height="12" rx="2" stroke="currentColor" stroke-width="1.5" fill="none"/><circle cx="5" cy="5" r="1" fill="currentColor"/><circle cx="11" cy="5" r="1" fill="currentColor"/><circle cx="8" cy="8" r="1.5" fill="currentColor"/><path d="M5 11h6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg> Automatyka</span>
+                                <span><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor"><path d="M8 0a1 1 0 0 1 1 1v5.268l4.562-2.634a1 1 0 1 1 1 1.732L10 8l4.562 2.634a1 1 0 1 1-1 1.732L9 9.732V15a1 1 0 1 1-2 0V9.732l-4.562 2.634a1 1 0 1 1-1-1.732L6 8 1.438 5.366a1 1 0 0 1 1-1.732L7 6.268V1a1 1 0 0 1 1-1z"/></svg> Oczyszczanie</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technologies Section -->
+    <section id="technologies" class="technologies">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Technologie</span>
+                <h2 class="section-title">Kompleksowe Linie Technologiczne</h2>
+                <p class="section-desc">Zaawansowane systemy przetwarzania odpadów dopasowane do Twoich potrzeb</p>
+            </div>
+            
+            <!-- Main Technology Cards -->
+            <div class="technology-grid">
+                <!-- Linia do odpadów gabarytowych -->
+                <div class="tech-card-large tech-card-white-bg" data-aos="fade-up">
+                    <div class="tech-card-image">
+                        <img src="img/9f03cd_1ef6202a127e4015b5dc79fdb56f11a3~mv2.png.avif" alt="Linia do odpadów gabarytowych">
+                        <div class="tech-badge">Wydajność 30 t/h</div>
+                    </div>
+                    <div class="tech-card-content">
+                        <h3>Linia do Przetwarzania Odpadów Gabarytowych i Budowlanych</h3>
+                        <p class="tech-description">
+                            Odzysk drewna i innych surowców wtórnych ze strumieni odpadów gabarytowych 
+                            i budowlanych. Dedykowana linia z najnowocześniejszym oprogramowaniem 
+                            sterującym i systemem monitoringu.
+                        </p>
+                        
+                        <div class="tech-features">
+                            <div class="tech-feature-item">
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                    <path d="M10 2L12 7L17 8L13.5 11.5L15 17L10 14L5 17L6.5 11.5L3 8L8 7L10 2Z" fill="currentColor"/>
+                                </svg>
+                                <span>Odzysk surowców wtórnych</span>
+                            </div>
+                            <div class="tech-feature-item">
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                    <circle cx="10" cy="10" r="8" stroke="currentColor" stroke-width="2" fill="none"/>
+                                    <path d="M6 10L9 13L14 7" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                                </svg>
+                                <span>System monitoringu 24/7</span>
+                            </div>
+                            <div class="tech-feature-item">
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                    <rect x="3" y="3" width="14" height="14" rx="2" stroke="currentColor" stroke-width="2" fill="none"/>
+                                    <path d="M7 10L9 12L13 8" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                                </svg>
+                                <span>Nowoczesne oprogramowanie</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Linia do odpadów komunalnych -->
+                <div class="tech-card-large tech-card-white-bg" data-aos="fade-up" data-aos-delay="100">
+                    <div class="tech-card-image">
+                        <img src="img/321Bez nazwy-4.png.avif" alt="Linia do odpadów komunalnych">
+                        <div class="tech-badge">Wysoka Wydajność</div>
+                    </div>
+                    <div class="tech-card-content">
+                        <h3>Linia do Przetwarzania Odpadów Komunalnych</h3>
+                        <p class="tech-description">
+                            Kompleksowa linia do przetwarzania zmieszanych odpadów komunalnych, 
+                            odpadów zbieranych selektywnie, gabarytowych, zielonych oraz budowlanych.
+                            Zoptymalizowana pod kątem maksymalnej wydajności i efektywności.
+                        </p>
+                        
+                        <div class="tech-features">
+                            <div class="tech-feature-item">
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                    <path d="M10 2L12 7L17 8L13.5 11.5L15 17L10 14L5 17L6.5 11.5L3 8L8 7L10 2Z" fill="currentColor"/>
+                                </svg>
+                                <span>6 typów odpadów</span>
+                            </div>
+                            <div class="tech-feature-item">
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                    <circle cx="10" cy="10" r="8" stroke="currentColor" stroke-width="2" fill="none"/>
+                                    <path d="M6 10L9 13L14 7" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                                </svg>
+                                <span>Automatyczna segregacja</span>
+                            </div>
+                            <div class="tech-feature-item">
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                    <rect x="3" y="3" width="14" height="14" rx="2" stroke="currentColor" stroke-width="2" fill="none"/>
+                                    <path d="M7 10L9 12L13 8" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                                </svg>
+                                <span>Kompletna instalacja</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Linia do separacji suchych frakcji -->
+                <div class="tech-card-large tech-card-white-bg" data-aos="fade-up" data-aos-delay="200">
+                    <div class="tech-card-image">
+                        <img src="2teBez nazwy-5.png" alt="Linia do separacji suchych frakcji">
+                        <div class="tech-badge">Elastyczne rozwiązanie</div>
+                    </div>
+                    <div class="tech-card-content">
+                        <h3>Linia do Separacji Suchych Frakcji</h3>
+                        <p class="tech-description">
+                            Elastyczne rozwiązania dostosowane do różnych frakcji odpadów, w tym odpadów 
+                            z rozdrobnionych gabarytów oraz odpadów budowlanych pochodzących ze zbiórki selektywnej.
+                        </p>
+                        
+                        <div class="tech-features">
+                            <div class="tech-feature-item">
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                    <path d="M10 2L12 7L17 8L13.5 11.5L15 17L10 14L5 17L6.5 11.5L3 8L8 7L10 2Z" fill="currentColor"/>
+                                </svg>
+                                <span>Różne frakcje odpadów</span>
+                            </div>
+                            <div class="tech-feature-item">
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                    <circle cx="10" cy="10" r="8" stroke="currentColor" stroke-width="2" fill="none"/>
+                                    <path d="M6 10L9 13L14 7" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                                </svg>
+                                <span>Odpady z gabarytów</span>
+                            </div>
+                            <div class="tech-feature-item">
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                    <rect x="3" y="3" width="14" height="14" rx="2" stroke="currentColor" stroke-width="2" fill="none"/>
+                                    <path d="M7 10L9 12L13 8" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                                </svg>
+                                <span>Zbiórka selektywna</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Benefits Section -->
+            <div class="tech-benefits" data-aos="fade-up" data-aos-delay="200">
+                <h3 class="benefits-title">Zalety Naszych Linii Technologicznych</h3>
+                <div class="benefits-grid">
+                    <div class="benefit-item">
+                        <div class="benefit-icon">
+                            <svg width="40" height="40" viewBox="0 0 40 40" fill="none">
+                                <circle cx="20" cy="20" r="15" stroke="currentColor" stroke-width="2"/>
+                                <path d="M20 12V20L26 23" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                            </svg>
+                        </div>
+                        <h4>Szybka Instalacja</h4>
+                        <p>Sprawna montaż i uruchomienie linii w krótkim czasie</p>
+                    </div>
+                    
+                    <div class="benefit-item">
+                        <div class="benefit-icon">
+                            <svg width="40" height="40" viewBox="0 0 40 40" fill="none">
+                                <path d="M20 5L25 15L35 17L27.5 24L30 35L20 29L10 35L12.5 24L5 17L15 15L20 5Z" fill="currentColor"/>
+                            </svg>
+                        </div>
+                        <h4>Najwyższa Jakość</h4>
+                        <p>Komponenty premium od sprawdzonych dostawców</p>
+                    </div>
+                    
+                    <div class="benefit-item">
+                        <div class="benefit-icon">
+                            <svg width="40" height="40" viewBox="0 0 40 40" fill="none">
+                                <rect x="8" y="8" width="24" height="24" rx="4" stroke="currentColor" stroke-width="2"/>
+                                <path d="M16 20L19 23L24 17" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                            </svg>
+                        </div>
+                        <h4>Pełne Wsparcie</h4>
+                        <p>Serwis, szkolenia i doradztwo techniczne</p>
+                    </div>
+                    
+                    <div class="benefit-item">
+                        <div class="benefit-icon">
+                            <svg width="40" height="40" viewBox="0 0 40 40" fill="none">
+                                <circle cx="20" cy="20" r="3" fill="currentColor"/>
+                                <path d="M20 8L22 13L27 14L23 18L25 24L20 21L15 24L17 18L13 14L18 13L20 8Z" stroke="currentColor" stroke-width="2"/>
+                            </svg>
+                        </div>
+                        <h4>Indywidualne Projekty</h4>
+                        <p>Dopasowane rozwiązania do Twoich potrzeb</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">O Nas</span>
+                <h2 class="section-title">TEST Krapkowice</h2>
+                <p class="section-desc">Lider w branży gospodarki odpadami</p>
+            </div>
+            
+            <div class="about-main">
+                <div class="about-content-box" data-aos="fade-up">
+                    <p class="about-text">
+                        TEST Krapkowice to wiodący producent urządzeń i kompletnych linii technologicznych 
+                        do przetwarzania odpadów. Specjalizujemy się w projektowaniu i realizacji innowacyjnych 
+                        rozwiązań dla branży gospodarki odpadami, łącząc wieloletnie doświadczenie 
+                        z najnowszymi technologiami.
+                    </p>
+                </div>
+                
+                <div class="about-features-grid">
+                    <div class="about-feature-card" data-aos="fade-up" data-aos-delay="100">
+                        <div class="about-feature-icon">
+                            <svg width="40" height="40" viewBox="0 0 40 40" fill="none">
+                                <path d="M20 5L23 15L33 17L26 24L28 35L20 30L12 35L14 24L7 17L17 15L20 5Z" fill="currentColor"/>
+                            </svg>
+                        </div>
+                        <h4>Najwyższa Jakość</h4>
+                        <p>Urządzenia charakteryzujące się najwyższą jakością wykonania i niezawodnością</p>
+                    </div>
+                    
+                    <div class="about-feature-card" data-aos="fade-up" data-aos-delay="200">
+                        <div class="about-feature-icon">
+                            <svg width="40" height="40" viewBox="0 0 40 40" fill="none">
+                                <rect x="8" y="8" width="24" height="24" rx="4" stroke="currentColor" stroke-width="2.5" fill="none"/>
+                                <path d="M14 20L18 24L26 15" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <h4>Nowoczesne Technologie</h4>
+                        <p>Wykorzystanie najnowszych technologii i innowacyjnych rozwiązań</p>
+                    </div>
+                    
+                    <div class="about-feature-card" data-aos="fade-up" data-aos-delay="300">
+                        <div class="about-feature-icon">
+                            <svg width="40" height="40" viewBox="0 0 40 40" fill="none">
+                                <circle cx="20" cy="12" r="5" stroke="currentColor" stroke-width="2.5" fill="none"/>
+                                <path d="M10 32c0-5.5 4.5-10 10-10s10 4.5 10 10" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+                                <circle cx="30" cy="16" r="3" stroke="currentColor" stroke-width="2" fill="none"/>
+                                <path d="M26 30c0-2.2 1.8-4 4-4s4 1.8 4 4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                            </svg>
+                        </div>
+                        <h4>Kompleksowe Wsparcie</h4>
+                        <p>Pełne wsparcie techniczne i doradztwo na każdym etapie projektu</p>
+                    </div>
+                    
+                    <div class="about-feature-card" data-aos="fade-up" data-aos-delay="400">
+                        <div class="about-feature-icon">
+                            <svg width="40" height="40" viewBox="0 0 40 40" fill="none">
+                                <circle cx="20" cy="20" r="15" stroke="currentColor" stroke-width="2.5" fill="none"/>
+                                <path d="M20 8V20L28 24" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <h4>Wieloletnie Doświadczenie</h4>
+                        <p>25+ lat doświadczenia w branży gospodarki odpadami</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact & Guarantee Section -->
+    <section id="contact" class="contact-guarantee-section">
+        <!-- Guarantee Part -->
+        <div class="guarantee-wrapper">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">GWARANTUJEMY</h2>
+                </div>
+                
+                <div class="guarantee-grid">
+                    <div class="guarantee-card">
+                        <div class="guarantee-icon">
+                            <svg width="50" height="50" viewBox="0 0 50 50" fill="none">
+                                <circle cx="25" cy="25" r="20" stroke="currentColor" stroke-width="2"/>
+                                <path d="M25 12L29 21L38 22L31.5 29L33 38L25 33L17 38L18.5 29L12 22L21 21L25 12Z" fill="currentColor"/>
+                            </svg>
+                        </div>
+                        <h3 class="guarantee-title">Sprawność</h3>
+                        <p class="guarantee-description">
+                            Dostawy i usługi zapewniające najwyższą jakość i terminowość
+                        </p>
+                    </div>
+
+                    <div class="guarantee-card">
+                        <div class="guarantee-icon">
+                            <svg width="50" height="50" viewBox="0 0 50 50" fill="none">
+                                <path d="M25 8L13 16V29C13 36 18 40 25 42C32 40 37 36 37 29V16L25 8Z" stroke="currentColor" stroke-width="2" fill="none"/>
+                                <path d="M21 25L23 27L29 21" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <h3 class="guarantee-title">Bezpieczeństwo</h3>
+                        <p class="guarantee-description">
+                            Każdy projekt i realizacja spełnia właściwe normy bezpieczeństwa
+                        </p>
+                    </div>
+
+                    <div class="guarantee-card">
+                        <div class="guarantee-icon">
+                            <svg width="50" height="50" viewBox="0 0 50 50" fill="none">
+                                <rect x="13" y="13" width="24" height="24" rx="4" stroke="currentColor" stroke-width="2" fill="none"/>
+                                <path d="M21 25H29M25 21V29" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                                <circle cx="25" cy="25" r="6" stroke="currentColor" stroke-width="2" fill="none"/>
+                            </svg>
+                        </div>
+                        <h3 class="guarantee-title">Dopasowanie</h3>
+                        <p class="guarantee-description">
+                            Rozwiązania oparte na wspólnie opracowywanych koncepcjach
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Contact Part -->
+        <div class="contact-wrapper">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Kontakt</span>
+                    <h2 class="section-title">Skontaktuj się z nami</h2>
+                    <p class="section-desc">Jesteśmy do Twojej dyspozycji</p>
+                </div>
+                
+                <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="contact-card">
+                        <div class="contact-card-image">
+                            <img src="img/sGemini_Generated_Image_mml00hmml00hmml0 kopia.png" alt="TEST Krapkowice">
+                        </div>
+                        <div class="contact-card-text">
+                            <h3>TEST Krapkowice</h3>
+                            <p>Piotr Staszewski</p>
+                            <p>ul. Opolska 79</p>
+                            <p>47-300 Krapkowice</p>
+                            <p>Polska</p>
+                            <div class="contact-company-data">
+                                <p><strong>NIP:</strong> PL756-001-04-86</p>
+                                <p><strong>REGON:</strong> 531282504</p>
+                                <p><strong>BDO:</strong> 000047690</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <span class="contact-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </span>
+                            <div>
+                                <strong>Telefon</strong>
+                                <p><a href="tel:+48774467135">+48 774 467 135</a></p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <span class="contact-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <polyline points="22,6 12,13 2,6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </span>
+                            <div>
+                                <strong>Email</strong>
+                                <p><a href="mailto:biuro@testkrapkowice.pl">biuro@testkrapkowice.pl</a></p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <span class="contact-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/>
+                                </svg>
+                            </span>
+                            <div>
+                                <strong>Facebook</strong>
+                                <p><a href="https://fb.com/TESTKrapkowice" target="_blank" rel="noopener">fb.com/TESTKrapkowice</a></p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <span class="contact-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M23 7s-.2-1.4-.8-2c-.8-.8-1.6-.8-2-.9C17.3 4 12 4 12 4s-5.3 0-8.2.1c-.4.1-1.2.1-2 .9-.6.6-.8 2-.8 2S1 8.5 1 10.2v1.6C1 13.5 1 15 1 15s.2 1.4.8 2c.8.8 1.8.8 2.2.9 1.6.1 8 .2 8 .2s5.3 0 8.2-.1c.4-.1 1.2-.1 2-.9.6-.6.8-2 .8-2s.2-1.4.2-3.1v-1.6C23 8.5 23 7 23 7zm-13 6V8l6 2.5-6 2.5z"/>
+                                </svg>
+                            </span>
+                            <div>
+                                <strong>YouTube</strong>
+                                <p><a href="https://youtube.com/TESTKrapkowice" target="_blank" rel="noopener">youtube.com/TESTKrapkowice</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form-wrapper">
+                    <form class="contact-form">
+                        <h3>Napisz do nas</h3>
+                        <div class="form-group">
+                            <input type="text" name="name" placeholder="Imię i nazwisko" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" name="email" placeholder="Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" name="phone" placeholder="Telefon">
+                        </div>
+                        <div class="form-group">
+                            <textarea name="message" placeholder="Wiadomość" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">
+                            <span>Wyślij Wiadomość</span>
+                        </button>
+                    </form>
+                </div>
+            </div>
+            
+            <!-- Map Section -->
+            <div class="map-section">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2542.8699428374746!2d17.962447576837842!3d50.47505087159129!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471145c6f8b6e3c9%3A0x7c8e8f0e8f0e8f0e!2sOpolska%2079%2C%2047-300%20Krapkowice!5e0!3m2!1spl!2spl!4v1234567890123!5m2!1spl!2spl" 
+                    width="100%" 
+                    style="border:0;" 
+                    allowfullscreen="" 
+                    loading="lazy" 
+                    referrerpolicy="no-referrer-when-downgrade"
+                    title="Mapa - TEST Krapkowice, ul. Opolska 79, 47-300 Krapkowice">
+                </iframe>
+            </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <!-- Footer Brand -->
+            <div class="footer-brand">
+                <div class="footer-logo">
+                    <div class="footer-logo-icon">
+                        <img src="fftreatment (1) kopia.png" alt="TEST Krapkowice Logo">
+                    </div>
+                    <h3>TEST Krapkowice</h3>
+                </div>
+                <p class="footer-description">
+                    Wiodący producent urządzeń i kompletnych linii technologicznych do przetwarzania odpadów. Innowacyjne rozwiązania dla branży gospodarki odpadami.
+                </p>
+                <div class="footer-social">
+                    <a href="https://fb.com/TESTKrapkowice" target="_blank" rel="noopener" aria-label="Facebook">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/>
+                        </svg>
+                    </a>
+                    <a href="https://youtube.com/TESTKrapkowice" target="_blank" rel="noopener" aria-label="YouTube">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M23 7s-.2-1.4-.8-2c-.8-.8-1.6-.8-2-.9C17.3 4 12 4 12 4s-5.3 0-8.2.1c-.4.1-1.2.1-2 .9-.6.6-.8 2-.8 2S1 8.5 1 10.2v1.6C1 13.5 1 15 1 15s.2 1.4.8 2c.8.8 1.8.8 2.2.9 1.6.1 8 .2 8 .2s5.3 0 8.2-.1c.4-.1 1.2-.1 2-.9.6-.6.8-2 .8-2s.2-1.4.2-3.1v-1.6C23 8.5 23 7 23 7zm-13 6V8l6 2.5-6 2.5z"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Quick Links -->
+            <div class="footer-section">
+                <h4>Menu</h4>
+                <ul class="footer-links">
+                    <li><a href="#home">Start</a></li>
+                    <li><a href="#products">Produkty</a></li>
+                    <li><a href="#technologies">Technologie</a></li>
+                    <li><a href="#about">O Nas</a></li>
+                    <li><a href="#contact">Kontakt</a></li>
+                </ul>
+            </div>
+
+            <!-- Contact Info -->
+            <div class="footer-section">
+                <h4>Kontakt</h4>
+                <div class="footer-contact-item">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                        <circle cx="12" cy="10" r="3"/>
+                    </svg>
+                    <div>
+                        <div>ul. Opolska 79</div>
+                        <div>47-300 Krapkowice</div>
+                    </div>
+                </div>
+                <div class="footer-contact-item">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                    </svg>
+                    <span>+48 774 467 135</span>
+                </div>
+                <div class="footer-contact-item">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                        <polyline points="22,6 12,13 2,6"/>
+                    </svg>
+                    <span>biuro@testkrapkowice.pl</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer Bottom -->
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; 2025 TEST Krapkowice. Wszelkie prawa zastrzeżone. | NIP: PL756-001-04-86 | REGON: 531282504 | BDO: 000047690</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
