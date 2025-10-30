@@ -1,4 +1,26 @@
 // ===== MOBILE MENU =====
+// Lightweight lazy-loading for non-critical images
+document.addEventListener('DOMContentLoaded', () => {
+    const allImages = document.querySelectorAll('img');
+    allImages.forEach(img => {
+        // Skip if already configured
+        if (!img.hasAttribute('loading')) {
+            img.setAttribute('loading', 'lazy');
+        }
+        if (!img.hasAttribute('decoding')) {
+            img.setAttribute('decoding', 'async');
+        }
+        // Non-critical by default
+        if (!img.closest('.navbar') && !img.closest('.hero')) {
+            img.setAttribute('fetchpriority', 'low');
+        }
+    });
+    // Ensure logos remain eager for best LCP
+    document.querySelectorAll('.logo-icon img, .footer-logo-icon img').forEach(img => {
+        img.setAttribute('loading', 'eager');
+        img.setAttribute('fetchpriority', 'high');
+    });
+});
 const hamburger = document.querySelector('.hamburger');
 const navMenu = document.querySelector('.nav-menu');
 
